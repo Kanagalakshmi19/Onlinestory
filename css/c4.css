@@ -1,0 +1,64 @@
+body{
+    background-image: url(../images/11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: deeppink;
+    text-shadow: firebrick;
+    text-align: center ;
+    animation-name: pp;
+    animation-duration: 40s;
+    animation-delay: 2s;
+
+}
+@keyframes simp{
+    20% {background-color: whitesmoke;}
+    20% {background-color: blue;}
+    20%{background-color: darksalmon;}
+}
+h2{
+    color:greenyellow;
+    text-shadow: grey;
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    color:black;
+    text-align: center;
+    text-shadow: cadetblue;
+    font-size: 40px;
+}
+p1,p2,p3,p4,p7{
+    color: red;
+    font-size: 30px;
+    text-shadow: darkgoldenrod;
+}
+p5{
+    color: darkorchid;
+    font-size: 30px;
+}
+p6{
+    color: darksalmon;
+    text-align: center;
+    font-size: 30px;
+}
+P8{
+    font-size: 30PX;
+}
+P9{
+    color: chartreuse;
+    font-size: 30PX;
+    
+}
+.hh{
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation{
+from{
+    transform: rotatey(100deg);
+}
+to{
+    transform: rotatey(0deg);
+}
+} 

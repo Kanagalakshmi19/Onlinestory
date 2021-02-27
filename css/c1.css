@@ -1,0 +1,32 @@
+body{
+    border: 5px thistle;
+    background-image: url('../images/book.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-origin: border-box;
+    background-attachment: fixed;
+}
+h1{
+    color:rgb(164, 240, 13);
+    text-align: center;
+    font-size: 70px;
+    text-shadow: rgb(238, 145, 24);
+}
+h2{
+    color:rgb(250, 255, 252);
+    text-shadow: rgb(164, 240, 13);
+    font-size: 40px;
+}
+p{
+    color:palegreen;
+    text-shadow: forestgreen;
+    text-align: center;
+    font-size: 40px;
+}
+p1,p2,p3{
+    color:chartreuse;
+    text-shadow: 2px 2px violet;
+    font-size: 40px;
+
+
+}

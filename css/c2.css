@@ -1,0 +1,78 @@
+body{
+    border: coral;
+    background-image: url(../images/88.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: border-box;
+}
+h1{
+    color: black;
+    text-shadow: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+    animation-name: jj;
+    animation-duration: 30s;
+    animation-delay: 0s;
+
+    
+}
+h2{
+    color: crimson;
+    text-shadow: cyan;
+    text-align: center;
+    font-size: 30px;
+
+}
+p{
+    color:red;
+    text-align: center;
+    text-shadow: burlywood;
+    font-size: 40px;
+}
+p1,p2,p3{
+    color:black;
+    text-shadow: blanchedalmond;
+    font-size: 30px;
+    
+    
+}
+p4{
+    color: black;
+    text-shadow: blanchedalmond;
+    text-align: center;
+    font-size: 40px;
+}
+p5,p7{
+    color:navy;
+    text-shadow: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+}
+p6{
+    color:red;
+    text-shadow: oldlace;
+    text-align: center;
+    font-size: 30px;
+}
+p8{
+    color:darkmagenta;
+    text-align: center;
+    font-size: 40px;
+
+}
+  .kk{
+    animation: rotation 8s infinite linear;
+}
+@keyframes rotation{
+from{
+    transform: rotatey(100deg);
+}
+to{
+    transform: rotatey(0deg);
+}
+} 
+@keyframes jj{
+    20% {background-color: olive;}
+    20% {background-color:palevioletred;}
+    20%{background-color: khaki;}
+}
